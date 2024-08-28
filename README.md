@@ -1,7 +1,11 @@
-**布灵键鼠** buke_km Q群: 972847677
+**布灵键鼠** buke_km Q群: 972847677  
 
 这是免费版本，使用时需要联网。
-This is the free version, which requires internet connection to use.
+This is the free version, which requires internet connection to use.  
+
+若有无法加载的系统，备好iso/gho/vmware包，发给本人，有时间进行解决。   
+If there is a system that cannot be loaded, prepare the iso/gho/vmware package and send it to me for resolution when you have time.  
+邮箱(email): 1475419685@qq.com  
 
 # 介绍(Introduction)
 一款windows平台下键盘鼠标模拟库。支持驱动键鼠+HID键鼠。
