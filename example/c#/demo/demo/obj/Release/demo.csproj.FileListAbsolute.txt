@@ -1,0 +1,7 @@
+C:\Users\Administrator\Desktop\demo\demo\obj\Release\demo.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\demo\demo\obj\Release\demo.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\demo\demo\bin\Release\demo.exe.config
+C:\Users\Administrator\Desktop\demo\demo\bin\Release\demo.exe
+C:\Users\Administrator\Desktop\demo\demo\bin\Release\demo.pdb
+C:\Users\Administrator\Desktop\demo\demo\obj\Release\demo.exe
+C:\Users\Administrator\Desktop\demo\demo\obj\Release\demo.pdb
