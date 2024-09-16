@@ -1,6 +1,6 @@
 **布灵键鼠** buke_km Q群: 972847677  
 
-这是免费版本，使用时需要联网。
+这是免费版本，使用时需要联网。  
 This is the free version, which requires internet connection to use.  
 
 若有无法加载的系统，备好iso/gho/vmware包，发给本人，有时间进行解决。   
@@ -8,7 +8,7 @@ If there is a system that cannot be loaded, prepare the iso/gho/vmware package a
 邮箱(email): 1475419685@qq.com  
 
 # 介绍(Introduction)
-一款windows平台下键盘鼠标模拟库。支持驱动键鼠+HID键鼠。
+一款windows平台下键盘鼠标模拟库。支持驱动键鼠+HID键鼠。  
 A keyboard and mouse simulation library for the Windows platform.
 Support driver keyboard and mouse+HID keyboard and mouse.
 
@@ -16,12 +16,21 @@ Support driver keyboard and mouse+HID keyboard and mouse.
 ![Image](https://github.com/user-attachments/assets/e56f8354-9565-47eb-909f-15c065aa713c)
 
 # 使用文档(Document)
-加载DLL  =>  调用Init  =>  调用键鼠接口
+加载DLL  =>  调用Init  =>  调用键鼠接口  
 Load dll  =>  Call the init function  =>  Call others
-
+**示例:**
+> if(False == Init(0, 0)){  
+> //error return  
+> }    
+> MouseMove(100, 100)  
+> MouseLeftDown()  
+> MouseLeftUp()  
+> KeyboardDown(65)  
+> KeyboardUp(65)  
+  
 # 接口函数(Interface)
 ## Init
-初始化键鼠库，成功初始化后才能使用其它函数。
+初始化键鼠库，成功初始化后才能使用其它函数。  
 Initialize the keyboard and mouse library, and only after successful initialization can other functions be used.
 
 | 参数(Parameters) | 类型(Type) | 说明(Description) |
@@ -33,18 +42,18 @@ Initialize the keyboard and mouse library, and only after successful initializat
 Return value: Success returns 1, failure returns 0
 
 ## SetScale
-设置系统缩放比, 不设置此项将智能判断缩放比, 如果错误, 可手动进行设置。
+设置系统缩放比, 不设置此项将智能判断缩放比, 如果错误, 可手动进行设置。  
 Set the system zoom ratio. Not setting this option will intelligently determine the zoom ratio. If it is incorrect, it can be manually set.
 
  | 参数(Parameters) | 类型(Type) | 说明(Description) | 
 | ---|---|--- |
- | scale | float | 缩放比为125%, 填写1.25。缩放比为150, 填写1.5 Zoom ratio is 125%, fill in 1.25. Scale ratio is 150, fill in 1.5 | 
+ | scale | float | 缩放比为125%, 填写1.25。缩放比为150, 填写1.5  Zoom ratio is 125%, fill in 1.25. Scale ratio is 150, fill in 1.5 | 
 
 返回值: 无
 Return value: none
 
 ## SetMouseMoveTrack
-设置鼠标移动轨迹, 不设置此项鼠标是瞬间移动到指定位置。
+设置鼠标移动轨迹, 不设置此项鼠标是瞬间移动到指定位置。  
 Set the mouse movement trajectory. If not set, the mouse will instantly move to the specified position.
 
  | 参数(Parameters) | 类型(Type) | 说明(Description) | 
@@ -56,7 +65,7 @@ Set the mouse movement trajectory. If not set, the mouse will instantly move to 
 Return value: none
 
 ## MouseMove
-鼠标移动到屏幕指定坐标。
+鼠标移动到屏幕指定坐标。  
 Move the mouse to the specified coordinates on the screen.
 
 | 参数(Parameters) | 类型(Type) | 说明(Description) | 
@@ -68,7 +77,7 @@ Move the mouse to the specified coordinates on the screen.
 Return value: none
 
 ## MouseMoveR
-以当前坐标为起始点, 向指定坐标移动指定距离。
+以当前坐标为起始点, 向指定坐标移动指定距离。  
 Starting from the current coordinates, move a specified distance towards the designated coordinates.
 
 参数(Parameters) | 类型(Type)	 | 说明(Description) | 
