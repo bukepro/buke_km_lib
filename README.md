@@ -13,7 +13,7 @@ A keyboard and mouse simulation library for the Windows platform.
 Support driver keyboard and mouse+HID keyboard and mouse.
 
 # 测试工具(Testing tool)
-![Image](https://github.com/user-attachments/assets/e56f8354-9565-47eb-909f-15c065aa713c)
+![Image](https://github.com/bukepro/buke_km_lib/blob/master/testing_tool.png)
 
 # 使用文档(Document)
 加载DLL  =>  调用Init  =>  调用键鼠接口  
